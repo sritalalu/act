@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&family=IM+Fell+English&family=Merriweather:ital,wght@1,300&family=Sawarabi+Mincho&family=Tiro+Telugu&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  width: 60%;
+  margin: 30px 20% 0;
+}
+
+#page-title{
+  font-family: cursive;
+}
+
+nav a{
+    color: inherit !important;
+}
+
+nav a:hover {
+    color:white !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  black;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #444444;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: right;
+    margin-left: 25px;
+}
+
+footer a{ 
+    color: #000;
+}
+
+table, th, td {
+  border: 1px solid;
+  color: blue;
+}
